@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/codec/aacparser"
-	"github.com/deepch/vdk/utils/bits/pio"
+	"github.com/naresh-kavali/vdk/av"
+	"github.com/naresh-kavali/vdk/codec/aacparser"
+	"github.com/naresh-kavali/vdk/utils/bits/pio"
 )
 
 type DecoderConfigDescriptor struct {

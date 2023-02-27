@@ -3,8 +3,8 @@ package rtsp
 import (
 	"time"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/format/rtsp/sdp"
+	"github.com/naresh-kavali/vdk/av"
+	"github.com/naresh-kavali/vdk/format/rtsp/sdp"
 )
 
 type Stream struct {

@@ -3,8 +3,8 @@ package ts
 import (
 	"time"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/format/ts/tsio"
+	"github.com/naresh-kavali/vdk/av"
+	"github.com/naresh-kavali/vdk/format/ts/tsio"
 )
 
 type Stream struct {

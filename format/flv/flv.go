@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/av/avutil"
-	"github.com/deepch/vdk/codec"
-	"github.com/deepch/vdk/codec/aacparser"
-	"github.com/deepch/vdk/codec/fake"
-	"github.com/deepch/vdk/codec/h264parser"
-	"github.com/deepch/vdk/codec/h265parser"
-	"github.com/deepch/vdk/format/flv/flvio"
-	"github.com/deepch/vdk/utils/bits/pio"
+	"github.com/naresh-kavali/vdk/av"
+	"github.com/naresh-kavali/vdk/av/avutil"
+	"github.com/naresh-kavali/vdk/codec"
+	"github.com/naresh-kavali/vdk/codec/aacparser"
+	"github.com/naresh-kavali/vdk/codec/fake"
+	"github.com/naresh-kavali/vdk/codec/h264parser"
+	"github.com/naresh-kavali/vdk/codec/h265parser"
+	"github.com/naresh-kavali/vdk/format/flv/flvio"
+	"github.com/naresh-kavali/vdk/utils/bits/pio"
 )
 
 var MaxProbePacketCount = 20
