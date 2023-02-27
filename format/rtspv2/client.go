@@ -103,7 +103,7 @@ type RTSPClientOptions struct {
 	DisableAudio       bool
 	OutgoingProxy      bool
 	InsecureSkipVerify bool
-	headers		       map[string]string
+	Headers		       map[string]string
 }
 
 func Dial(options RTSPClientOptions) (*RTSPClient, error) {
@@ -121,8 +121,8 @@ func Dial(options RTSPClientOptions) (*RTSPClient, error) {
 		AudioTimeScale:      8000,
 	}
 
-	if client.options.headers != nil {
-		client.headers = client.options.headers
+	if client.options.Headers != nil {
+		client.headers = client.options.Headers
 	}
 	client.headers["User-Agent"] = "Lavf58.76.100"
 	err := client.parseURL(html.UnescapeString(client.options.URL))
